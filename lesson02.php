@@ -52,6 +52,7 @@ $sql = "CREATE TABLE IF NOT EXISTS `Cycles` (
   $result = mysql_query ("$sql");
   if(!($result))
      echo "<BR><font color=red>Error; ".mysql_errno()."; error description: </font>".mysql_error();
+/**Vars **/
 }
 $val1 = $_POST["Year"];
 $val2 = $_POST["Make"];
